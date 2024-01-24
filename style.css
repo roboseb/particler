@@ -1,7 +1,26 @@
 body {
-    background-color: wheat;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 canvas {
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 20px;
+
+    display: none;
+}
+
+button {
+    display: none;
 }

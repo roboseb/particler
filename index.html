@@ -8,7 +8,6 @@
     <title>Particler</title>
 </head>
 <body>
-    <h1>This is the particler</h1>
     <canvas></canvas>
 
     <div id="options">
@@ -19,11 +18,28 @@
             <input type="number" id='angleSize' class='option-input' value='180' step="10">
             <label for="lineLength">Line Length</label>
             <input type="number" id='lineLength' class='option-input' value='400' step="20">
+            <label for="lineGap">Line Gap</label>
+            <input type="number" id='lineGap' class='option-input' value='800' step="20">
+            <label for="totalLength">Total Length</label>
+            <input type="number" id='totalLength' class='option-input' value='500' step="20">
             <label for="lineWidth">Line Width</label>
             <input type="number" id='lineWidth' class='option-input' value='8'>
             <label for="animationSpeed">Animation Speed</label>
             <input type="number" id='animationSpeed' class='option-input' value='30'>
+            <label for="bezierAngleX">Bezier Angle X</label>
+            <input type="number" id='bezierAngleX' class='option-input' value='0' step='10'>
+            <label for="bezierAngleY">Bezier Angle Y</label>
+            <input type="number" id='bezierAngleY' class='option-input' value='0' step="10">
+            <label for="startX">Start X</label>
+            <input type="number" id='startX' class='option-input' value='0' step="10">
+            <label for="startY">Start Y</label>
+            <input type="number" id='startY' class='option-input' value='0' step="10">
+            <label for="lineDelay">Line Delay</label>
+            <input type="number" id='lineDelay' class='option-input' value='0'>
+            <label for="subtractedLines">Subtracted Lines</label>
+            <input type="number" id='subtractedLines' class='option-input' value='0'>
         </form>
+        <button id='randomizeBtn' type='button' >Randomize</button>
     </div>
 
     <script src="./script.js"></script>
